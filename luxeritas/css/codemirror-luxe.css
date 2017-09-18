@@ -1,0 +1,121 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This CSS has been developed on the basis of the following.
+ */
+ /*
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ /* normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+------------------------------------
+ Code Mirror
+------------------------------------ */
+#luxe-customize .edit-file-name {
+	box-sizing: border-box;
+	max-width: 1200px;
+	margin-bottom: 0;
+	padding: 5px 10px;
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+#luxe-customize .edit-file-name input {
+	font-size: 0.9em;
+	background: #fff;
+	border: 1px solid #ddd;
+	max-width: 430px;
+	width: 100%;
+	padding: 3px 10px;
+}
+p.submit {
+	display: none;
+}
+.codemirror-wrap {
+	max-width: 1200px;
+}
+.CodeMirror {
+	line-height: 1.2;
+	height: auto;
+	margin-bottom: -15px;
+	border: 1px solid #ccc;
+}
+.CodeMirror-scroll {
+	height: 515px;
+}
+.codemirror-ui-button-frame {
+	background: #f5f5f5;
+	border-top: 1px solid #ddd;
+	padding: 5px 0 4px 0;
+}
+#luxe-customize .codemirror-ui-button-frame input[type="text"] {
+	max-width: 140px;
+	padding: 1px 5px;
+	font-size: 0.9em;
+}
+.codemirror-ui-find-bar {
+	text-align: left !important;
+}
+.codemirror-ui-button {
+	margin: 0 3px !important;
+	cursor: pointer;
+}
+.codemirror-ui-button-frame img,
+.codemirror-ui-button-frame input {
+	vertical-align: middle;
+}
+.search-button,
+.replace-button {
+	color: transparent;
+	border: none;
+	width: 22px;
+	cursor: pointer;
+}
+.search-button {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAGFBMVEWwfnKRps27usb+tlPUz8m03PXH8v3m/f/GO8PuAAAACHRSTlP/////AP///y2EVCUAAABdSURBVAiZY3CBAgYQISgIYSiGpQqCGeJloYkqQIZjWFhaqgiIkZZWXgZmpMIYoenlpSCGk1h6eRFIsYtgWKoiSLuBkqCgCpDhzAC1woAJwnBmUIEwFJigtjtABFwAlHYg2vuwJK4AAAAASUVORK5CYII=') 3px 1px no-repeat;
+}
+.replace-button {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAGFBMVEUAZQApgCheqFSvfnGfu6/+tlPT0crP8/2tiN72AAAACHRSTlP///////8A/2Clr6YAAAB1SURBVAiZJYzBDcIwEAQXiQKwFfG/k+UGQgE4WJcCUgHgrP88SPux5X2NVpoB+bwYSbA4ldzhrbn+c4NF1+MTDJgEVbyhTIv+vERQJWpIdzC5Cp/QdFsPVUNrhep907mpc7HBPpfbtZe3B/uwzzbgNQ7iOw6ecX0j1ciyNbIAAAAASUVORK5CYII=') 3px 1px no-repeat;
+}
+
+a.codemirror-ui-button {
+	box-sizing: border-box;
+	width: 22px;
+}
+.cm-tab:after {
+	content: ">";
+	display: -moz-inline-block;
+	display: -webkit-inline-block;
+	display: inline-block;
+	width: 0px;
+	position: relative;
+	overflow: visible;
+	left: -2.8em;
+	color: #aaa;
+	font-size: 10px;
+}
+.normal {
+	font-weight: normal;
+}
+.small {
+	font-size: 0.9em;
+}
+.red {
+	color: #ff0000;
+}
+.blue {
+	color: #0000ff;
+}
